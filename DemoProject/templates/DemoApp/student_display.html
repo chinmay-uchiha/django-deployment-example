@@ -1,0 +1,13 @@
+
+{% extends "DemoApp/index.html" %}
+{% block body_block %}
+
+
+  {% for s in std%}
+  Name :<h1>{{s.student_name}}</h1>
+  Number :<h1>{{s.student_no}}</h1>
+  Email :<h1>{{s.alt_student_no}}</h1>
+  Subjct :<h1>{{s.studet_subjects}}</h1><hr>
+  {%endfor%}
+
+{% endblock %}
